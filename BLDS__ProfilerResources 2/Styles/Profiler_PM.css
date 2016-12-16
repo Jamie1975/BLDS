@@ -1,0 +1,119 @@
+/****************** Pipe style ****************/
+
+ul {
+	list-style: none;
+}
+
+.piped2 {
+	padding-left:0px;
+	white-space: nowrap;
+}
+
+.piped2 .lastItem {
+	border-right: none;
+}
+
+.piped2 li {
+	float: left;
+	border-right: 1px solid #cfcece;
+	padding-left: 0;
+	padding-right: 3px;
+	margin-left: 3px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/****************** Pagination style ****************/
+
+.lDisabled {
+    cursor: default !important;
+    pointer-events: none;
+    color:#a8a8a8 !important;
+    text-decoration:none;
+}
+
+.lEnabled {
+	text-decoration:none;
+}
+
+ .LFirstPrevious{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+	}
+	
+.LDFirstPrevious{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -10px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+}
+
+.LPrevious{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: -10px 1px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+	}
+	
+.LDPrevious{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: -10px -10px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+}
+
+
+
+.LLastNext{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: -27px 1px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+	}
+	
+.LDLastNext{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: -27px -10px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+}
+
+.LNext{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: -17px 1px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+	}
+	
+.LDNext{
+	background-image: url(/img/paginationArrows.gif);
+	background-repeat: no-repeat;
+	background-position: -17px -10px;
+	margin: 0;
+	padding: 0;
+	width: 9px;
+	height: 10px;
+}

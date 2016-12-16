@@ -1,0 +1,37 @@
+.initialCSS{
+	border-bottom: 1px solid #BBBBBB; border-left: 1px solid #BBBBBB; border-right: 1px solid #BBBBBB; text-align: right; width: 120px;
+}
+.contactCSSMore{
+	border-bottom: 1px solid #BBBBBB; border-left: 1px solid #BBBBBB; border-right: 1px solid #BBBBBB; 
+	text-align: right; background-color: #56458c; color: white !important; width: 120px;
+}
+.leadCSSMore{
+   background-color: #e39321; color: white; border-bottom: 1px solid #BBBBBB; border-left: 1px solid #BBBBBB; 
+   border-right: 1px solid #BBBBBB; text-align: right; width: 120px;
+}
+.accountCSSMore{
+	background-color: #236fbd; color: white; border-bottom: 1px solid #BBBBBB; border-left: 1px solid #BBBBBB; 
+    border-right: 1px solid #BBBBBB; text-align: right; width: 120px;
+
+}
+.cancelLink{
+	float:right; color : #015BA7; text-decoration: none; padding-top: 5px; padding-left: 8px;
+}
+.trCSS{
+	background-color:F2F3F3; border-bottom: 1px solid #ECECEC; border-left: 1px solid #ECECEC; border-top: 1px solid #ECECEC; border-right: 1px solid #ECECEC;
+}
+.titleTd{
+	width: 120px ; border-left: 1px solid #BBBBBB; border-right: 1px solid #BBBBBB; border-top: 1px solid #BBBBBB;"
+}
+.profilerData{
+	width : 300px; border-right: 1px solid #BBBBBB; border-top: 1px solid #BBBBBB;"
+}
+.actualCRMDataCSS{
+	background-color: white; border-bottom: 1px solid #BBBBBB; width : 300px;
+}
+.captureDataCSS{
+	width : 300px; background-color: white; border-bottom: 1px solid #BBBBBB; border-right: 1px solid #BBBBBB;"
+}
+.cancelLinkDown{
+	float:right; color : #015BA7; text-decoration: none; padding-top: 5px; padding-left: 8px;
+}
