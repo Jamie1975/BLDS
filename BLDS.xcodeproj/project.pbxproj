@@ -8,12 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		7D2D4BC51E04929200836D9D /* BLDS__ProfilerResources 2 in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D4BC41E04929200836D9D /* BLDS__ProfilerResources 2 */; };
+		7D2D4BC81E0492E700836D9D /* AppKitScripting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2D4BC71E0492E700836D9D /* AppKitScripting.framework */; };
+		7D2D4BCA1E04931500836D9D /* Scripts in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2D4BC91E04931400836D9D /* Scripts */; };
+		7D2D4BCC1E04933900836D9D /* bundle1.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2D4BCB1E04933900836D9D /* bundle1.o */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		7D2D4BCD1E04939400836D9D /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist.strings;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyStrings\n";
+		};
+		7D2D4BCE1E04939C00836D9D /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		7D2D4BBB1E04924400836D9D /* BLDS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLDS.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2D4BBE1E04924400836D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D2D4BC41E04929200836D9D /* BLDS__ProfilerResources 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "BLDS__ProfilerResources 2"; sourceTree = "<group>"; };
+		7D2D4BC71E0492E700836D9D /* AppKitScripting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKitScripting.framework; path = System/Library/Frameworks/AppKitScripting.framework; sourceTree = SDKROOT; };
+		7D2D4BC91E04931400836D9D /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = "../../Downloads/BLDS__ProfilerResources 2/Scripts"; sourceTree = "<group>"; };
+		7D2D4BCB1E04933900836D9D /* bundle1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = bundle1.o; path = usr/lib/bundle1.o; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2D4BCC1E04933900836D9D /* bundle1.o in Frameworks */,
+				7D2D4BCA1E04931500836D9D /* Scripts in Frameworks */,
+				7D2D4BC81E0492E700836D9D /* AppKitScripting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +63,7 @@
 				7D2D4BC41E04929200836D9D /* BLDS__ProfilerResources 2 */,
 				7D2D4BBD1E04924400836D9D /* BLDS */,
 				7D2D4BBC1E04924400836D9D /* Products */,
+				7D2D4BC61E0492E500836D9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +83,16 @@
 			path = BLDS;
 			sourceTree = "<group>";
 		};
+		7D2D4BC61E0492E500836D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D2D4BCB1E04933900836D9D /* bundle1.o */,
+				7D2D4BC91E04931400836D9D /* Scripts */,
+				7D2D4BC71E0492E700836D9D /* AppKitScripting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -64,6 +105,8 @@
 				7D2D4BB91E04924300836D9D /* Resources */,
 			);
 			buildRules = (
+				7D2D4BCE1E04939C00836D9D /* PBXBuildRule */,
+				7D2D4BCD1E04939400836D9D /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
